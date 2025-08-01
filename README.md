@@ -54,14 +54,14 @@ A modern, interactive Streamlit application running in a Docker container with a
 
 2. **Run Streamlit locally:**
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
    ```
 
 ## 📁 Project Structure
 
 ```
 pjcstreamlit/
-├── app.py                 # Main Streamlit application
+├── streamlit_app.py      # Main Streamlit application
 ├── requirements.txt       # Python dependencies
 ├── Dockerfile            # Docker configuration
 ├── docker-compose.yml    # Docker Compose configuration
